@@ -38,7 +38,7 @@ public class MainActivity extends ActionBarActivity {
 						mListView.stopRefresh();
 						Toast.makeText(MainActivity.this, "refresh", Toast.LENGTH_SHORT).show();
 
-						Calendar calendar = Calendar.getInstance();  //  显示时间
+						Calendar calendar = Calendar.getInstance();  //  显示时间  hh为12小时制 ，HH 为24小时制
 						SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd  HH:mm:ss");
 						String dateStr = sdf.format(calendar.getTime());
 						mListView.setRefreshTime(dateStr);
