@@ -25,3 +25,5 @@ local.properties
 .idea/compiler.xml
 .idea/encodings.xml
 .idea/encodings.xml
+*.lock
+build/intermediates/dex-cache/cache.xml
