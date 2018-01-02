@@ -8,21 +8,21 @@ import java.util.List;
 
 public interface SwipeItemMangerInterface {
 
-    public void openItem(int position);
+	public void openItem(int position);
 
-    public void closeItem(int position);
+	public void closeItem(int position);
 
-    public void closeAllExcept(SwipeLayout layout);
+	public void closeAllExcept(SwipeLayout layout);
 
-    public List<Integer> getOpenItems();
+	public List<Integer> getOpenItems();
 
-    public List<SwipeLayout> getOpenLayouts();
+	public List<SwipeLayout> getOpenLayouts();
 
-    public void removeShownLayouts(SwipeLayout layout);
+	public void removeShownLayouts(SwipeLayout layout);
 
-    public boolean isOpen(int position);
+	public boolean isOpen(int position);
 
-    public SwipeItemMangerImpl.Mode getMode();
+	public SwipeItemMangerImpl.Mode getMode();
 
-    public void setMode(SwipeItemMangerImpl.Mode mode);
+	public void setMode(SwipeItemMangerImpl.Mode mode);
 }
