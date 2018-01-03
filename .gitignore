@@ -27,3 +27,8 @@ local.properties
 .idea/encodings.xml
 *.lock
 build/intermediates/dex-cache/cache.xml
+gradle/wrapper/gradle-wrapper.properties
+.idea/vcs.xml
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.properties
